@@ -1,6 +1,6 @@
 # mReplaceChars
 
-**mReplaceChars** is a plugin that permit, by the parameters configuration, to manipulate the data entry of a text field or textarea.
+**mReplaceChars** is a plugin that permit, by the parameters configuration, to manipulate the data entry of a text field or textarea
 
 The following example manipulates the insertion of character:
 
@@ -10,7 +10,7 @@ The following example manipulates the insertion of character:
 $(document).ready(function(){
 
     $('.field').mReplaceChars({
-        char: { ' ':'_' } // ... you can add infinite character combinations { ' ':'_', ..., ... }
+        char: { ' ':'_' } // ... you can add infinite character combinations { ' ':'_', ..., ..., ... }
     });
 
 });
@@ -26,7 +26,7 @@ The following example applies a rule with a regex
 $(document).ready(function(){
 
     $('.field').mReplaceChars({
-        char: { ' ':'_' }, // ... you can add infinite character combinations { ' ':'_', ..., ... }
+        char: { ' ':'_' }, // ... you can add infinite character combinations { ' ':'_', ..., ..., ... }
         regex: '^[0-9a-zA-Z]+$'
     });
 
@@ -43,7 +43,7 @@ The following example force to upper or lower case
 $(document).ready(function(){
 
     $('.field').mReplaceChars({
-        char: { ' ':'_' }, // ... you can add infinite character combinations { ' ':'_', ..., ... }
+        char: { ' ':'_' }, // ... you can add infinite character combinations { ' ':'_', ..., ..., ... }
         regex: '^[0-9a-zA-Z]+$',
         forceTo: 'upper'
     });
@@ -61,7 +61,7 @@ The following example disable copy and paste event from field
 $(document).ready(function(){
 
     $('.field').mReplaceChars({
-        char: { ' ':'_' }, // ... you can add infinite character combinations { ' ':'_', ..., ... }
+        char: { ' ':'_' }, // ... you can add infinite character combinations { ' ':'_', ..., ..., ... }
         regex: '^[0-9a-zA-Z]+$',
         forceTo: 'upper',
         copy: false,
@@ -80,7 +80,7 @@ The following example applies to maxlength and shows the character counter under
 $(document).ready(function(){
 
     $('.field').mReplaceChars({
-        char: { ' ':'_' }, // ... you can add infinite character combinations { ' ':'_', ..., ... }
+        char: { ' ':'_' }, // ... you can add infinite character combinations { ' ':'_', ..., ..., ... }
         regex: '^[0-9a-zA-Z]+$',
         forceTo: 'upper',
         copy: false,

@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js" type="text/javascript"></script>
+        <script src="replacechars.js" type="text/javascript"></script>
+        <script>
+        $(document).ready(function(){
+
+            $('.field').mReplaceChars({
+                keycode: false,
+                char: { ' ':'_' },
+                regex: '^[0-9a-zA-Z]+$',
+                forceTo: 'upper',
+                copy: false,
+                paste: false,
+                maxlength: 255,
+                viewchar: true
+            });
+
+        });
+        </script>
+    </head>
+    <body>
+        <input type="text" name="name" class="field" />
+    </body>
+</html>

@@ -1,6 +1,6 @@
 # mReplaceChars
 
-**mReplaceChars** is a plugin that permit, by the parameters configuration, to manipulate the data entry of a text field or textarea
+**mReplaceChars** is a jQuery plugin that permit, by the parameters configuration, to manipulate the data entry of a text field or textarea
 
 The following example manipulates the insertion of character:
 
